@@ -44,6 +44,8 @@ public class Message implements Comparable<Message>{
 		result = prime * result + ((message == null) ? 0 : message.hashCode());
 		return result;
 	}
+	
+	// master change
 
 	@Override
 	public boolean equals(Object obj) {
