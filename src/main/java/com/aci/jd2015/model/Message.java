@@ -15,7 +15,7 @@ public class Message implements Comparable<Message>{
 	public Date getDatetime() {
 		return datetime;
 	}
-
+	
 	public String getMessage() {
 		return message;
 	}
@@ -73,5 +73,6 @@ public class Message implements Comparable<Message>{
 		}
 		return true;
 	}
-
+	
+	// some code 
 }
